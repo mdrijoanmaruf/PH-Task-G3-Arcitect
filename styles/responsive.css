@@ -3,7 +3,9 @@
     /* Header Section */
     .nav{
         flex-direction: column;
-        padding: 10px;
+
+        padding-top: 0px;
+        padding-bottom: 10px;
     }
 
     header{
@@ -17,6 +19,7 @@
 
     .hero{
         width: 80%;
+        margin-top: 0;
     }
 
     .bannar{
