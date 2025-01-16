@@ -1,0 +1,29 @@
+@media only screen and (max-width : 680px){
+
+    /* Header Section */
+    .nav{
+        flex-direction: column;
+        padding: 10px;
+    }
+
+    .nav ul{
+        gap: 20px;
+        padding: 20px;
+    }
+
+    .hero{
+        width: 80%;
+    }
+
+    .bannar{
+        margin-bottom: 60px;
+    }
+
+
+    /* Quick List */
+    .quick-list{
+        display: flex;
+        flex-wrap: wrap-reverse;
+        margin: 10px 10px;
+    }
+}

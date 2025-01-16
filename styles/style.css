@@ -1,0 +1,159 @@
+@import url('https://fonts.googleapis.com/css2?family=Work+Sans:ital,wght@0,100..900;1,100..900&display=swap');
+
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Work Sans", serif;
+}
+
+:root {
+    --background-color: #FFF4E7;
+    --button-background: #FF900E;
+    --dark3: #727272;
+
+}
+
+a {
+    text-decoration: none;
+    color: rgb(66, 66, 66);
+    font-family: Work Sans;
+    font-size: 18px;
+    font-weight: 500;
+}
+
+/* Common Styles */
+.section{
+    max-width: 1280px;
+    margin: 0px auto;
+}
+
+.flex{
+    display: flex;
+}
+
+.btn{
+    border-radius: 8px;
+    background: rgb(255, 144, 14);
+    border-radius: 8px;
+    background: rgb(255, 144, 14);
+    padding: 21px 25px;
+    color: white;
+    font-weight: 600;
+    border: 2px solid var(--button-background);
+    font-size: 1rem;
+}
+
+.btn:hover{
+    background-color: white;
+    color: var(--dark3);
+}
+
+.text{
+    text-align: center;
+    color: rgb(114, 114, 114);
+    font-family: Work Sans;
+    font-size: 16px;
+    font-weight: 400;
+}
+
+img{
+    width: 100%;
+}
+
+
+
+
+
+
+/* Header */
+header{
+    background-color: var(--background-color);
+    padding: 30px 0;
+}
+
+.nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.nav > ul{
+    color: var(--dark3);
+    display: flex;
+    gap : 60px;
+    list-style: none;
+}
+
+.nav > h1{
+    font-size: 2.1rem;
+    font-weight: 700;
+}
+
+ul > a:hover{
+    color: var(--button-background);
+}
+
+.hero{
+    width: 40%;
+    display: flex;
+    flex-direction: column;
+    gap: 25px;
+    justify-content: center;
+    align-items: center;
+    margin-top: 50px;
+}
+
+.hero  h1{
+    font-size: 3rem;
+    text-align: center;
+}
+
+.bannar{
+    margin-top: 50px;
+}
+
+
+
+/* Quick List  */
+
+.squre-img  , .quick-list{
+    display: grid;
+    gap: 20px;
+    grid-template-columns: repeat(2, 1fr);
+}
+
+.quick-list {
+    margin-top: 80px;
+    gap: 50px;
+}
+
+.quick-list-description{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: start;
+    gap: 20px;
+}
+
+.quick-list-description p{
+    text-align: left;
+}
+
+.quick-list-description h2{
+    font-size: 3rem;
+}
+
+.quick-list-description h2 span:first-of-type{
+    font-weight: 400;
+    color: var(--dark3);
+}
+
+.quick-list-description h2 span:nth-of-type(2) {
+    color: var(--button-background);
+}
+
+
+
+
