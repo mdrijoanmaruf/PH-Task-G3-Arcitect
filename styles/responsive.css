@@ -6,6 +6,10 @@
         padding: 10px;
     }
 
+    header{
+        padding-bottom: 0;
+    }
+
     .nav ul{
         gap: 20px;
         padding: 20px;
@@ -26,4 +30,49 @@
         flex-wrap: wrap-reverse;
         margin: 10px 10px;
     }
+
+    /* Features you will love & engoy */
+
+    .love > div{
+        display: flex;
+        flex-wrap: wrap;
+        margin: 50px 10px;
+    }
+
+    .item{
+        margin-right: 0;
+    }
+
+    .exp{
+        margin: 10px auto;
+        width: 100%;
+    }
+
+
+    /* Some Facts */
+    .fact-container{
+        width: 100%;
+        margin: 0px 10px;
+    }
+
+    .badge-container{
+        grid-template-columns: 1fr 1fr;
+    }
+
+    .badge{
+        padding: 20px 40px;
+    }
+
+    /* Our Sponsors */
+    .logo-container{
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+
+    /* Footer */
+    footer{
+        margin: 0;
+        margin-top: 40px;
+    }
+
 }
